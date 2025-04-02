@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="base_ps7_0_0_synth_1" LaunchDir="C:/Users/osher/Vivado_Projects/AXIL_LED_SW_BD/AXIL_LED_SW_BD.runs/base_ps7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_rst_ps7_0_fclk0_0_synth_1" LaunchDir="C:/Users/osher/Vivado_Projects/AXIL_LED_SW_BD/AXIL_LED_SW_BD.runs/base_rst_ps7_0_fclk0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_axi_led_switch_0_0_synth_1" LaunchDir="C:/Users/osher/Vivado_Projects/AXIL_LED_SW_BD/AXIL_LED_SW_BD.runs/base_axi_led_switch_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_s00_regslice_14_synth_1" LaunchDir="C:/Users/osher/Vivado_Projects/AXIL_LED_SW_BD/AXIL_LED_SW_BD.runs/base_s00_regslice_14_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="base_auto_pc_12_synth_1" LaunchDir="C:/Users/osher/Vivado_Projects/AXIL_LED_SW_BD/AXIL_LED_SW_BD.runs/base_auto_pc_12_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

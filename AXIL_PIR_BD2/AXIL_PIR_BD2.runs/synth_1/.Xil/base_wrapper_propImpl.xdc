@@ -1,0 +1,18 @@
+set_property SRC_FILE_INFO {cfile:c:/Users/osher/Vivado_Projects/AXIL_PIR_BD2/AXIL_PIR_BD2.srcs/sources_1/bd/base/ip/base_ps7_0_0/base_ps7_0_0/base_ps7_0_0_in_context.xdc rfile:../../../AXIL_PIR_BD2.srcs/sources_1/bd/base/ip/base_ps7_0_0/base_ps7_0_0/base_ps7_0_0_in_context.xdc id:1 order:EARLY scoped_inst:base_i/ps7_0} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/osher/Vivado_Projects/AXIL_PIR_BD2/AXIL_PIR_BD2.srcs/constrs_1/new/xdc.xdc rfile:../../../AXIL_PIR_BD2.srcs/constrs_1/new/xdc.xdc id:2} [current_design]
+current_instance base_i/ps7_0
+set_property src_info {type:SCOPED_XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 10.000 [get_ports {}]
+current_instance
+set_property src_info {type:XDC file:2 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN W14 IOSTANDARD LVCMOS33} [get_ports {pir}]
+set_property src_info {type:XDC file:2 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN M20 IOSTANDARD LVCMOS33} [get_ports {sw0}]
+set_property src_info {type:XDC file:2 line:8 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN R14 IOSTANDARD LVCMOS33} [get_ports {leds[0]}]
+set_property src_info {type:XDC file:2 line:9 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN P14 IOSTANDARD LVCMOS33} [get_ports {leds[1]}]
+set_property src_info {type:XDC file:2 line:10 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN N16 IOSTANDARD LVCMOS33} [get_ports {leds[2]}]
+set_property src_info {type:XDC file:2 line:11 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN M14 IOSTANDARD LVCMOS33} [get_ports {leds[3]}]

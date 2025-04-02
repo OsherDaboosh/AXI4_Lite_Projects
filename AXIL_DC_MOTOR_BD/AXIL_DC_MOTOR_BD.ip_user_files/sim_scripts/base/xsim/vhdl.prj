@@ -1,0 +1,10 @@
+vhdl xil_defaultlib  \
+"../../../bd/base/ip/base_ps7_0_0/base_ps7_0_0_sim_netlist.vhdl" \
+"../../../bd/base/ip/base_rst_ps7_0_fclk0_0/sim/base_rst_ps7_0_fclk0_0.vhd" \
+"../../../bd/base/sim/base.vhd" \
+"c:/Users/osher/Vivado_Projects/AXIL_DC_MOTOR_BD/AXIL_DC_MOTOR_BD.srcs/sources_1/bd/base/ip/base_s00_regslice_0/base_s00_regslice_0_sim_netlist.vhdl" \
+"c:/Users/osher/Vivado_Projects/AXIL_DC_MOTOR_BD/AXIL_DC_MOTOR_BD.srcs/sources_1/bd/base/ip/base_auto_pc_0/base_auto_pc_0_sim_netlist.vhdl" \
+"../../../bd/base/ipshared/8ea6/axil_dc_motor_control.vhd" \
+"../../../bd/base/ip/base_axil_dc_motor_control_0_0/sim/base_axil_dc_motor_control_0_0.vhd" \
+
+nosort
